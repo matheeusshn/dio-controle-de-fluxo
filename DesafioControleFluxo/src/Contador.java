@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Contador {
     public static void main(String[] args) {
-        // Usando try-with-resources para garantir que o Scanner seja fechado
         try (Scanner terminal = new Scanner(System.in)) {
             System.out.println("Digite o primeiro parâmetro");
             int parametroUm = terminal.nextInt();
